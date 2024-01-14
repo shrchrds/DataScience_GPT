@@ -6,8 +6,6 @@ import os
 
 load_dotenv()
 
-# initialize Pinecone
-
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_API_ENV = os.getenv("PINECONE_API_ENV")
 
